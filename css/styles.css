@@ -10,25 +10,28 @@ body{
 .autocomplete{
     float: right;
 }
-
-.vertical-menu {
+.bottom{
+    position: relative;
+    left: 210px;
+    bottom:300px;
+}
+.nav-bar {
     width: 170px;
      background-color: #6495ED;
     color: black;
     display: block;
     padding: 12px;
     text-decoration: none;
+    top:200px;
 }
-
-.vertical-menu a {
+.nav-bar a {
     background-color: #6495ED;
     color: black;
     display: block;
     padding: 12px;
     text-decoration: none;
+    top:200px;
 }
-
-
 .form{
 	float: right;
 	border: 3px solid black;
@@ -36,7 +39,7 @@ body{
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
 }
 
 td, th {
