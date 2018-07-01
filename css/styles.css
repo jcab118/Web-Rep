@@ -3,6 +3,7 @@ body{
 }
 .root{
     background-color: white;
+
 }
 .search{
     float: right;
@@ -13,37 +14,43 @@ body{
 .bottom{
     position: relative;
     left: 210px;
-    bottom:300px;
 }
 .nav-bar {
-    width: 170px;
-     background-color: #6495ED;
-    color: black;
-    display: block;
+  /* background-color: #6495ED; */
+  background: linear-gradient(to top, #252c42,#405b8f);
+    float: left;
+    color: white;
+    display: table;
     padding: 12px;
     text-decoration: none;
-    top:200px;
+    position:absolute;
+    z-index: 1;
+    top: 0px;
+   left: 0px;
+   width: 13%;
+   height: 100%;
 }
 .nav-bar a {
-    background-color: #6495ED;
-    color: black;
-    display: block;
+    color: white;
+    display: table;
     padding: 12px;
     text-decoration: none;
-    top:200px;
 }
 .form{
-	float: right;
-	border: 3px solid black;
+    float: right;
+    border: 3px solid black;
 }
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 80%;
+    width: 86%;
+    right: 150px;
 }
-
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
+
+
+Add CommentCollapse 

@@ -4,13 +4,9 @@
 	<title>Web-Rep</title>
 	<link rel= "stylesheet" href= "../css/styles.css" type="text/CSS">
 	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		 <script src="./app.js"> </script>
 </head>
 <body>
-<script>
-	var someData = [
-	   {Name,Type, Date Modified, Size},
-	];
-</script>
 	<div class="search" style="width:200px;">
   		<select>
     		<option value="0">Hi, Skymet</option>
@@ -37,7 +33,7 @@
 							<p> Root /</p>
 							<p class="fas fa-plus-square"> New Directory</p>
 							<p class="fas fa-upload"> Upload</p>
-							<form autocomplete="off" action="/action_page.php">
+							<form id= "search_bar" autocomplete="off" action="/action_page.php">
 		  						<div class="autocomplete" style="width:300px;">
 		    						<input id="myInput" type="text" name="Search" placeholder="Search">
 		    						<input type="submit">
@@ -94,5 +90,6 @@
 			</table>
 		</div>
 	</div>
+	<
 </body>
 </html>
